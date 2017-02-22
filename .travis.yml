@@ -27,4 +27,4 @@ branches:
     - blog-source
 env:
  global:
-     - GH_REF: github.com:jasonlee529/essay.git
+     - GH_REF: github.com/jasonlee529/essay.git
