@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Jason Lee Essay
+subtitle: Only dead fish go with the flow!
 description:
-author: John Doe
-language:
-timezone:
+author: Jason Lee
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+root: /essay
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
