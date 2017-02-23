@@ -525,5 +525,5 @@ images: images
 version: 5.1.0
 
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: /images/wechat.png
-alipay: /images/alipay.jpg
+wechatpay: /essay/images/wechat.png
+alipay: /essay/images/alipay.jpg
