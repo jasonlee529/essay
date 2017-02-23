@@ -279,10 +279,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 69f02f078fd202b54793c69f3596a63f 69f02f078fd202b54793c69f3596a63f
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: jasonlee529
 
 # Disqus
 #disqus_shortname:
@@ -375,9 +375,10 @@ vkontakte_api:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+    #enable: false
+  enable: true
+  app_id: 9xKonnO15v0AJMC7I1AA3uGR-gzGzoHsz
+  app_key: tkE85yvpAJGajCnNt86tj3vw
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
