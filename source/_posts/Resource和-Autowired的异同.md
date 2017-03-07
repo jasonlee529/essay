@@ -2,10 +2,10 @@
 title: '@Resource和@Autowired的异同'
 date: 2017-03-07 18:06:29
 categories:
-  --spring
+  -spring
 tags:
- --spring
- --java
+ -spring
+ -java
 ---
 
 ## 相同点：
