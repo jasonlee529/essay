@@ -2,7 +2,7 @@
 title: Java 排序接口 Comparable和Comarator比较
 date: 2017-02-23 11:01:49
 categories:
-- java
+  - Java
 tags:
   - Java
   - 算法
