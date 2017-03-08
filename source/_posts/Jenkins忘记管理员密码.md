@@ -6,8 +6,13 @@ categories:
 tags:
   - Jenkins
 ---
-服务器部署Jenkins后，首次使用```${home}/.jenkins/secrets/initialAdminPassword```文件中的密码进入系统。
-然后选择默认插件。安装后配置了一个账户test/test。然后关闭服务器后重新登录系统，发现无法登录了？尴了个尬！！！
+
+服务器部署Jenkins后，首次使用文件中的密码进入系统。
+``` shell
+${home}/.jenkins/secrets/initialAdminPassword
+```
+
+然后选择安装默认插件，成功后配置了一个admin账户test/test。完成后重启服务器后重新登录系统，发现无法登录了？尴了个尬！！！
 
 求助伟大的google，找到了解决办法：
 打开jenkins配置目录下的config.xml文件。
