@@ -2,6 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="baidu-site-verification" content="EVs7ssiWWK" />
+<meta name="baidu_union_verify" content="c005bc0c69775da3573d1776851b3034">
 
 
 {# #238, Disable Baidu tranformation #}
