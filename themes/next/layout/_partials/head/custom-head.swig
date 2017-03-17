@@ -18,3 +18,5 @@ Custom head.
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
+
+<link rel="alternate" hreflang="zh-Hans" href="https://jasonlee529.github.io" />
