@@ -312,10 +312,9 @@ duoshuo_shortname: jasonlee529
 ##  type: button
 
 # Share
-#jiathis:
+jiathis: true
 # Warning: JiaThis does not support https.
-#add_this_id:
-
+add_this_id: 2127589
 # Share
 #duoshuo_share: true
 
