@@ -69,3 +69,5 @@ JAVA_OPTS=" -Xms1024m -Xmx1024m  -XX:PermSize=512m -XX:MaxPermSize=512m -Dspring
 
 ## 总结
 使用java的系统参数-D方式即减轻了耦合性，也降低了开发和维护之间交流协作的部分。当有多个部署环境时，提前部署好指定的profile,这点在datasource的指定上面极为好用。
+
+这点特性也可以结合maven的profile机制，直接进行单元测试集成。
