@@ -26,6 +26,7 @@ Spring的profiles有两个变量可以配置
    <!-- 测试环境，具体加载bean或者properties文件 -->
  </beans>   
 ```
+<!-- more -->
 ### 激活profile
 在J2EE项目中，一般通过web.xml配置。
 ``` xml

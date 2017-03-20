@@ -12,6 +12,7 @@ tags:
 1. 两者都能做到注入一个Bean.
 2. 两者都可应用在Field和Method上面。
 3. 两者均为Runtime级别的Retention。
+<!-- more -->
 
 ## 不同点：
 1. 使用的场景有差异 @Resource可应用在类（TYPE)上面，@Autowired可以应用在构造方法(CONSTRUCTOR)和注解类型(ANNOTATION_TYPE)上面。

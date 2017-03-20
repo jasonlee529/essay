@@ -30,6 +30,7 @@ tags:
 {% asset_img test-envi-001.png This is an example image %}
 
 代码里面数据库映射使用了spring-data 和 Hibernate实现，方便实现，避免自己写sql。
+<!-- more -->
 
 数据连接配置信息
 ``` properties

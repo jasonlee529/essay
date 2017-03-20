@@ -24,6 +24,8 @@ public class Collections {
     }
   }
 ```
+<!-- more -->
+
 可以看到，具体实现由List的sort方法解决。
 ```java
 public class List{
