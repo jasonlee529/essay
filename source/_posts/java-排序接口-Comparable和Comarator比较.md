@@ -40,8 +40,7 @@ public class List{
     }
 }
 ```
-没有搞明白为什么方法是default的包权限？
-list直接把数据转换为数组，转换为数据排序实现。
+没有搞明白为什么方法是default的包权限？而在ArrayList中重载此方法时，权限修饰符改为了public。。
 ```java
 public class Arrays{
     public static <T> void sort(T[] a, Comparator<? super T> c) {
