@@ -33,3 +33,4 @@ ${home}/.jenkins/secrets/initialAdminPassword
 
 有个问题没有搞懂：
 >之前创建的账号test,后面还可以创建一个同名账号test ,最终系统里面只显示一个test，不明白原因。可能是第一次账号创建没有成功把。
+提交代码后显示的user和系统user不不是一个概念。应该是翻译的问题。
