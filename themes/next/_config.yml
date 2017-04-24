@@ -273,9 +273,9 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: http://cdn.staticfile.org/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 # Swiftype Search API Key
@@ -526,5 +526,5 @@ images: images
 version: 5.1.0
 
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: /essay/images/wechat.png
-alipay: /essay/images/alipay.jpg
+wechatpay: http://oi4qj3o0c.bkt.clouddn.com/essay/qv/wechat.png
+alipay: http://oi4qj3o0c.bkt.clouddn.com/essay/qv/alipay.jpg
