@@ -24,6 +24,7 @@ AOP,中文译作“面向切面编程”，即通过预编译方式和运行期�
 
 # Spring对AOP的实现
 ## Spring是如何实现AOP的？
+Spring是运用动态代理的方法实现AOP的。
 
 ## Spring的实现了具体形式？
 
