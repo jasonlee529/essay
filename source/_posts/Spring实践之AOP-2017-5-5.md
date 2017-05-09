@@ -17,7 +17,7 @@ AOP,中文译作“面向切面编程”，即通过预编译方式和运行期�
 ## 术语
 * 通知(Advice)：
 * 连接点(JoinPoint): 连接点是在应用程序中能够插入切面的一个点。
-* 切点(PontCut):
+* 切点(PontCut): 业务逻辑的切入点，某些连接点上面织入逻辑。
 * 切面(Aspect):
 * 引入(Introduction):
 * 织入(Weaving):
