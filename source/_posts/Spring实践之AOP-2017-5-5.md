@@ -17,12 +17,11 @@ tags:
 AOP,中文译作“面向切面编程”，即通过预编译方式和运行期动态代理实现程序功能的统一维护的一种技术。
 ## 术语
 * 通知(Advice)：Spring的Aop支持4种类型的Advice:
-```
- * before advice 在方法执行前执行。
- * after  returning  advice 在方法执行后返回一个结果后执行。
- * after  throwing advice 在方法执行过程中抛出异常的时候执行。
- * Around  advice 在方法执行前后和抛出异常时执行，相当于综合了以上三种通知。
-```
+
+> 1. before advice 在方法执行前执行。
+> 2. after returning  advice 在方法执行后返回一个结果后执行。
+> 3. after throwing advice 在方法执行过程中抛出异常的时候执行。
+> 4. Around advice 在方法执行前后和抛出异常时执行，相当于综合了以上三种通知。
 
 * 连接点(JoinPoint): 连接点是在应用程序中能够插入切面的一个点。
 * 切点(PontCut): 业务逻辑的切入点，某些连接点上面织入逻辑。
