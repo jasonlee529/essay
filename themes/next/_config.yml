@@ -157,6 +157,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
+avatar : /images/1491256964.jpg
 
 
 # Table Of Contents in the Sidebar
