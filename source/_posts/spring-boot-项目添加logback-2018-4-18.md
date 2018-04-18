@@ -47,7 +47,7 @@ spring-boot-starter-logging 依赖有
     <appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>logs/infisa.${name}.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/infisa.clinic.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>logs/${name}.%d{yyyy-MM-dd}.log</fileNamePattern>
         </rollingPolicy>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
@@ -55,7 +55,7 @@ spring-boot-starter-logging 依赖有
     </appender>
 
     <!-- project default level -->
-    <logger name="cn.infisa" level="info"/>
+    <logger name="cn.lee.jason" level="info"/>
 
     <!-- 定义根日志级别 -->
     <root level="info">
@@ -83,7 +83,7 @@ configuration是logback.xml的根节点，所有的配置项目都要位于confi
 例如使用<property>定义上下文名称，然后在<contentName>设置logger上下文时使用。
 #### appender
 负责写日志的组件，它有两个必要属性name和class。name指定appender名称，class指定appender的全限定名.
-{% appenderClassDiagram.jpg  appender类图 %}
+{% asset_img appenderClassDiagram.jpg  appender类图 %}
 ##### ConsoleAppender
 日志输出到控制台，有以下子节点：
 <encoder>：对日志进行格式化。
