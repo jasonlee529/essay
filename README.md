@@ -1,0 +1,1 @@
+[![Build Status](https://api.travis-ci.org/jasonlee529/essay.svg?branch=blog-source)](https://travis-ci.org/jasonlee529/essay?branch=blog-source)
