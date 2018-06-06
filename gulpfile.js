@@ -45,7 +45,7 @@ gulp.task('minify-js', function() {
 // 在命令行输入 gulp images 启动此任务
 gulp.task('images', function () {
     // 1. 找到图片
-    gulp.src('./photos/*.*')
+    gulp.src('./public/*.*')
     // 2. 压缩图片
         .pipe(imagemin({
             progressive: true
