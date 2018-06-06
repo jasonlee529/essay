@@ -276,7 +276,7 @@ highlight_theme: normal
 mathjax:
   enable: true
   per_page: false
-  cdn: http://cdn.staticfile.org/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js
 
 
 # Swiftype Search API Key
