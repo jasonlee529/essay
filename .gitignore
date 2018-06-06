@@ -40,3 +40,4 @@ db.json
 public
 .git/
 !/.git
+dump.rdb

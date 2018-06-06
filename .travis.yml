@@ -11,6 +11,7 @@ install:
 
 script:
   - hexo g
+  - gulp build
 
 after_script:
   - cd ./public
