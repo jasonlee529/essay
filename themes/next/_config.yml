@@ -3,10 +3,10 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Java,Linux,Mysql,Devs"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -17,7 +17,7 @@ rss:
 since: 2017
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: star
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -286,7 +286,7 @@ mathjax:
 baidu_analytics: 69f02f078fd202b54793c69f3596a63f 69f02f078fd202b54793c69f3596a63f
 
 # Duoshuo ShortName
-duoshuo_shortname: jasonlee529
+#duoshuo_shortname: jasonlee529
 
 # Disqus
 #disqus_shortname:
