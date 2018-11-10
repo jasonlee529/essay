@@ -39,9 +39,9 @@ mpvue的quickStart提供的构建脚手架，env的定义在config目录中，�
             api: '"example.com"'
         }
     ```
-    如何使用呢？
-    因为process是一个node的全局变量，使用Process对象在vue源码中应该是任意使用的。测试下：
-    ``` js 
+如何使用呢？
+因为process是一个node的全局变量，使用Process对象在vue源码中应该是任意使用的。测试下：
+``` javascript 
     // App.vue
     <script>
         export default {
@@ -65,6 +65,6 @@ mpvue的quickStart提供的构建脚手架，env的定义在config目录中，�
             }
         }
     </script>
-    ```
+```
 
 启动构建工具，打开微信开发工具，可以正确输出定义结果，目标达成。
