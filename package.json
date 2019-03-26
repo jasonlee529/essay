@@ -13,6 +13,7 @@
     "gulp-minify-css": "^1.2.4",
     "gulp-uglify": "^2.1.2",
     "hexo": "^3.2.0",
+    "hexo-admin-cn": "^2.1.0",
     "hexo-deployer-rsync": "^0.1.3",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-baidu-sitemap": "^0.1.2",
