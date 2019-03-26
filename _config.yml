@@ -72,7 +72,7 @@ deploy:
   type: rsync
   host: 116.196.86.186
   user: root
-  root: /var/www/html
+  root: /var/www/blog.xiaokele.site/html
   port: 3222
   delete: true
   verbose: true
