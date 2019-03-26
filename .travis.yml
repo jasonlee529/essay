@@ -26,6 +26,6 @@ env:
   - GH_ESSAY_REF: github.com/jasonlee529/essay.git
 before_install:
 - openssl aes-256-cbc -K $encrypted_20b31b92611d_key -iv $encrypted_20b31b92611d_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 116.196.86.186\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
