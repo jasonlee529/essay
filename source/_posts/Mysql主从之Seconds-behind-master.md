@@ -1,8 +1,10 @@
 ---
 title: Mysql主从之Seconds_behind_master
 tags:
-  - mysql 主从
-categories: []
+  - mysql
+  - 主从
+categories: 
+	- mysql
 date: 2019-04-03 18:24:00
 ---
 Mysql配置主从的监控，主要的监控指标有三个：
