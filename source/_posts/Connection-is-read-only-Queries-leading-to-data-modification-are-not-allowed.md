@@ -147,4 +147,6 @@ spring.datasource.url=jdbc:log4jdbc:mysql://ip:8066/testdb?useUnicode=true&chara
 如果设置为true，则只需要取本地值即可。__
 
 
-似乎是本地和远程服务器的配置有关，但远程服务器是mycat，莫非mycat是只读的，但没有找到mycat是只读的配置选项。
+似乎是本地和远程服务器的配置有关，但远程服务器是mycat，莫非mycat的链接不是只读的，但没有找到mycat是只读的配置选项。
+
+参数可以解决readOnly的问题，但只读链接的产生过程和原因不明。
