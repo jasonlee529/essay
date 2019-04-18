@@ -51,10 +51,17 @@ gulp.task('images', function () {
             progressive: true
         }))
         // 3. 另存图片
-        .pipe(gulp.dest('dist/images'))
+        .pipe(gulp.dest('dist/'))
+});
+gulp.task('other', function () {
+    // 1. 找到图片
+    gulp.src('./other/**')
+    // 2. 压缩图片
+        // 3. 另存图片
+        .pipe(gulp.dest('public/'))
 });
 
 // 执行 gulp 命令时执行的任务
 gulp.task('build', [
-    'minify-html','minify-css','minify-js','images',
+    'minify-html','minify-css','minify-js','images','other',
 ]);
