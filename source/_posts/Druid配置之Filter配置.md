@@ -9,7 +9,7 @@ date: 2019-04-16 15:28:00
 ---
 Druid作为阿里巴巴出品的数据库连接池产品，虽然从坊间传闻hikaricp性能更好，奈何Druid还有监控功能啊，线上的SQL问题统计方便很多，所以必须要了解下Druid的配置
 
-以下对Druid的依赖管理掠过。
+以下对Druid的依赖管理略过。
 #### JavaEE版本
 
 StatViewServlet是一个标准的javax.servlet.http.HttpServlet，需要配置在你web应用中的WEB-INF/web.xml中。

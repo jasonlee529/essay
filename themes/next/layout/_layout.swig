@@ -9,6 +9,9 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+  <!-- Google AdSense start -->
+  {% include '_custom/google_adsense.ejs' %}
+  <!-- Google AdSense end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
