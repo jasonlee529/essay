@@ -86,5 +86,6 @@
     {% include '_scripts/third-party/exturl.swig' %}
   {% endif %}
 
+  {% include '_custom/taobao.ejs' %}
 </body>
 </html>
