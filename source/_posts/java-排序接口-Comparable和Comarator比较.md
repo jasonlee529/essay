@@ -7,7 +7,7 @@ tags:
   - Java
   - 算法
 ---
-## java 排序Comparable和Comparator使用
+## Java 排序Comparable和Comparator使用
 java提供了两个排序用的接口Comparable和Comparator,一般情况下使用区别如下：
 > 1. Comparable 接口用于类的固定排序方式上面，比如类实现Comparable接口，实现compareTo方法，
 做为类默认排序实现。
