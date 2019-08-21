@@ -30,7 +30,7 @@ public class Person implements Comparable<Person>{
         users.add(new Person("Kobe Bryant",1));
         users.add(new Person("Jasme Harden",1));
         users.add(new Person("Leborn James",1));
-        System.out.println(" size= "users.size());
+        System.out.println(" size= "+users.size());
     }
     // getter and setter
 }
