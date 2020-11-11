@@ -1,12 +1,12 @@
 language: node_js
-node_js: '6'
+node_js: '12'
 install:
 - npm install
 before_script:
 - npm install -g gulp
 script:
-- hexo g
 - gulp build
+- hexo g
 - hexo d
 after_script:
 - cd ./public
