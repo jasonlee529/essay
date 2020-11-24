@@ -5,7 +5,7 @@ install:
 before_script:
 - npm install -g gulp
 script:
-- gulp build
+# - gulp build
 - hexo g
 - hexo d
 after_script:
